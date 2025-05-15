@@ -7,7 +7,7 @@ const guitarStrings = [
   { note: 'E4', frequency: 329.63 }
 ];
 
-const tolerance = 1.5; // Hz tolerance for in-tune
+const tolerance = 7.5; // Hz tolerance for in-tune
 
 const startBtn = document.getElementById('start-btn');
 const noteDisplay = document.querySelector('.note');
